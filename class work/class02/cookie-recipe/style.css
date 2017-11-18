@@ -1,0 +1,45 @@
+/* <!-- Task
+========================
+
+Your Grandma wants you to publish her famous cookie recipe to the world wide web, she's typed it out for you in this .html document (she's so nice). 
+
+She absolutely wants the directions to appear in order in a numbered list. The cookies won't taste good if you don't get the order right. (hint you need an ordered list).
+
+Your Grandpa happens to be a great Graphic Designer and gave you the following specs to style:
+
+Cookie Recipe CSS
+=================
+
+- The background color for the page is #c8deec
+- The color for the text reading "Nutrition Information" is #887
+- The font family for the h1, h3 and h4 is Courier New
+- The font family for the h2 is Century Gothic
+- The font family for all other elements is Helvetica Neue
+- The font weight for the link is bold 
+- Bonus: The border on the page and around the image is black --> */
+
+body{
+    background:#c8deec;
+    font-family:"Helvetica Neue";
+}
+h1{
+    font-family:"Courier New","Courier","monospace";
+    color:black
+}
+h3,h4{
+    font-family:"Courier New","Courier","monospace";
+    font-style:italic;
+    color:#887;
+}
+h2{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    color: #7ca4bd;
+}
+a {
+    font-weight:bold;
+    text-decoration:none;
+    color:black;
+}
+img{
+    border:1px solid black
+}
