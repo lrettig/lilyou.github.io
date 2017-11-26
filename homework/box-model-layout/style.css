@@ -15,18 +15,17 @@ body, html{
     color:white;
 }
 
-.lorem1{
+.lorem{
     background:salmon;
-    color: purple;
     padding: 10px;
+}
+.lorem1{
+    color: purple;
+    
 }
 .lorem2{
-    background:salmon;
     color:green;
-    padding: 10px;
 }
 .lorem3{
-    background:salmon;
     color:yellow;
-    padding: 10px;
 }
