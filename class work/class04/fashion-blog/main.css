@@ -1,0 +1,37 @@
+body{
+    font-family: 'lato', sans-serif;
+    widows: 720px;
+    padding: 0 54px;
+    color: 444444;
+    margin: 0 auto;
+    text-align: left;
+
+}
+.headline{
+    color:red;
+}
+.subhead{
+    color:black;
+}
+.header-nav{
+    color:#dddddd;
+    text-decoration: none;
+} 
+.date{
+    color:#cccccc;
+}
+.article-itle{
+    color:black;
+}
+
+.footer-nav{
+    color:red
+}
+
+a.bottom-nav-link{
+    color:red;
+}
+
+h3{
+    color:#bbbbbb;
+}
