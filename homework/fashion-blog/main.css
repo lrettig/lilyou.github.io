@@ -1,37 +1,55 @@
 body{
     font-family: 'lato', sans-serif;
-    widows: 720px;
-    padding: 0 54px;
+    width: 720px;
     color: 444444;
-    margin: 0 auto;
+    Margin:auto;
     text-align: left;
+    line-height: 1.5;
 
 }
 .headline{
     color:red;
+    font-weight:normal;
 }
 .subhead{
     color:black;
+    font-weight:normal;
 }
 .header-link{
     color:#dddddd;
-    text-decoration: none;
-} 
+    font-weight:normal;
+    padding: 10px;
+    display: inline-block;
+}
+
 .date{
     color:#cccccc;
+    font-weight:lighter;
 }
 .article-itle{
+    font-weight:normal;
     color:black;
+}
+
+.continues{
+    color:red;
+    font-weight: bold;
+    text-align: right;
+    
 }
 
 .footer-nav{
     color:red
+    
 }
 
 a.bottom-nav-link{
     color:red;
+    text-decoration: none;
 }
 
 h3{
     color:#bbbbbb;
+    font-weight:normal;
 }
+
