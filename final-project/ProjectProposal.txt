@@ -1,0 +1,17 @@
+Final Project Proposal - Lily Ou
+Summary: I would like to build a travel photography blog. This project intends to be image heavy and add-on interaction and transition effect to showcase javascript. Ultimate goal will be a one project to demonstrate frontend web skill from this class. 
+
+Some sample site for reference :
+http://wearevisualanimals.com/ - like the individual detail page and visual navigation
+http://carolsachs.com/index.html - like to display category in long scroll home page
+http://helloplayful.com/home - like the consistent graphic when scrolling but too much text
+http://annarosa.com/ - confusing navigation but interesting displaying images 
+http://juliasellmann.com/projekte/punjabparmesan/ - Like how it showcasing the collection 
+
+Goals: 
+• Showcase photography
+• Categorize image by country, city, and category 
+Nice to have features:
+• Showcase visited country on a map
+• Add comment/review
+• integrate instagram 
