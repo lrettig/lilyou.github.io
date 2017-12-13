@@ -9,6 +9,8 @@ element.style{
 body{
         font-family: 'Source Sans Pro', sans-serif;
         line-height: 1.5em;
+        width: 960px;
+	    margin: 0 auto;
 }
 h2{
     font-family:"Merriweather", serif;
@@ -46,7 +48,7 @@ a{
     font-family: "Oswald";
     border: none;
     color: black;
-    padding: 10px 100px;
+    padding: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
