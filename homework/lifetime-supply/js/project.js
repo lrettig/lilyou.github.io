@@ -12,11 +12,14 @@ var favoriteDrink = $('#item').val();
 var amountPerDay = $('#num-per-day').val();
 
 // Calculate how much you would drink for the rest of your life!
-var solution = ((maxAge - age) * amountPerDay * 365);
+var solution = (parseInt(maxAge) - parseInt(age)) * amountPerDay * 365);
 console.log(solution);
 
 // Output your results to the user
 
-$('#output').html('You will drink ' + solution + ' more ' +  favoriteDrink + ' in your lifetime.');
+// $('#output').html('You will drink ' + solution + ' more ' +  favoriteDrink + ' in your lifetime.');
+
+$('output').html(total);
+$('drink').html(favoriteDrink);
 
 })
