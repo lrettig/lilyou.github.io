@@ -14,3 +14,15 @@ button {
   width: 60px;
   margin: 5px 55px 5px 5px;
 }
+
+.red-body{
+	background-color: red;
+}
+
+.green-body{
+	background-color: green;
+}
+
+.blue-body{
+	background-color: blue;
+}
