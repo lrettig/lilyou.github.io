@@ -10,7 +10,35 @@
 // Itermediate Bonus: If the value of #item is blank, do not append the <li> and alert user (hint: use an if/else statement)
 // Legendary Bonus: Remove individual <li> elements when they are clicked
 
-Yilin Gu [8:28 PM]
+// $(document).ready(function () {
+// 		// $('#list').append('<li>' + newItem + '</li>');
+// 		// $('#li').remove();
+// 		// $( "#text" ).remove().text();
+// 	// 1. Attach a .click() event to #clickme; attach an anonymous function to the .click()
+// 	$('#clickme').click(function() {
+// 	});
+
+// 	// 1A. This anonymous function should create a variable, newItem equal to the value of #item
+	
+// 	function appendItem(item){
+	
+// 	}
+
+// 	$('#list').append();
+// 	$('#item').val('');
+// 	$('items').focus();
+
+// 	// 1B. This anonymous function should call a separate function, appendItem, and pass it the variable newItem
+// 	// 1C. This anonymous function should then clear the text inside of #item
+
+// 	// 2. Write the appendItem function here
+
+// 	$('#list').on('click','li', function(){
+// 		$(this).remove();
+// 	})
+
+// });
+
 $(document).ready(function () {
 
     // 1. Attach a .click() event to #clickme; attach an anonymous function to the .click()
@@ -33,6 +61,8 @@ $(document).ready(function () {
         $(‘#list’).append(‘<li>’ + Item + ‘</li>‘);
         $(‘#item’).val(“”);
         $(‘#item’).focus();
+        
+        
     }
 
     $(‘#list’).on(‘click’,‘li’, function(){ //check anything in this List, when click within it, if it’s a li, do remove.

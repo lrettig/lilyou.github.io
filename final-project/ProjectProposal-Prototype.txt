@@ -15,3 +15,5 @@ Nice to have features:
 • Showcase visited country on a map
 • Add comment/review
 • integrate instagram 
+
+Prototype link here: https://projects.invisionapp.com/share/ABFD8A2XKCT
