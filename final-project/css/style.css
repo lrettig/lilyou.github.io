@@ -14,9 +14,6 @@ body{
 
 .menubutton{
   text-align: center;
-  width:20%;
-  position:fixed;
-  left: 40%;
   
 }
 .country{
@@ -29,3 +26,31 @@ font-size: 30px;
   left: 40%;
 }
 
+.container {
+display: grid; 
+width: 100%;
+grid-template-columns: repeat(12,1fr);
+grid-template-areas: 
+"l l l l m m m m i2 i2 i2 i2"
+"i1 i1 i1 i1 c c c c c c c c";
+}
+
+.logo{
+    grid-area: l;
+}
+
+.menubutton {
+    grid-area: m;
+}
+
+.country {
+    grid-area: c;
+}
+
+.leftcolumn {
+    grid-area: i1;
+}
+
+.rightcolumn {
+    grid-area: i2;
+}
