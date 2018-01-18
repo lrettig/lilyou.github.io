@@ -176,7 +176,7 @@ footer {
 	}
 	#header-nav{
 		margin: 20px;
-		padding: 
+		padding: 20px
 	}
 
 }
@@ -189,10 +189,11 @@ footer {
 
 /* Small screens and smaller - less than 550px*/
 @media (max-width: 550px){
-	/* body {
-		background-color: yellow;
-	} */
-	#tout{
+	body {
+		/* background-color: yellow; */
+		width: 100%;
+	}
+	#banner{
 		width:100%;
 	}
 }
