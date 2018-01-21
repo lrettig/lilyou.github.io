@@ -9,7 +9,8 @@ body{
 
 .logo{
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px
+    font-size: 16px;
+    text-align: left;
 }
 
 .menubutton{
@@ -18,39 +19,93 @@ body{
 }
 .country{
 font-family: 'Lato', sans-serif;
-text-align: center;
-font-size: 30px;
-  width:20%;
+font-size: 26px;
   position:fixed;
   top: 50%;
-  left: 40%;
+  left: 0;
+  right:0;
 }
 
-.container {
+.container1 {
 display: grid; 
 width: 100%;
 grid-template-columns: repeat(12,1fr);
 grid-template-areas: 
-"l l l l m m m m i2 i2 i2 i2"
-"i1 i1 i1 i1 c c c c c c c c";
+"l l l l l m m r r r r r"
+;
 }
 
-.logo{
-    grid-area: l;
-}
+/*
+5-2-5
+*/
 
-.menubutton {
+.middle {
     grid-area: m;
+    text-align: center;
 }
 
-.country {
-    grid-area: c;
-}
-
-.leftcolumn {
-    grid-area: i1;
+.leftcolumn{
+    grid-area: l;
+    text-align: right;
 }
 
 .rightcolumn {
-    grid-area: i2;
+    grid-area: r;
+    text-align: left;
+}   
+
+.landscape {
+    width: 100%;
 }
+
+.portrait {
+    width: 65%;
+    display: inline-block;
+}
+
+.landscape img,
+.portrait img {
+    width: 100%;
+    height: auto;
+}
+
+.caption{
+    text-align: left;
+}
+/* menu css */
+
+.menucontainer {
+    display: grid; 
+    width: 100%;
+    grid-template-columns: repeat(12,1fr); 
+    grid-template-areas: 
+    "s1 s1 s1 s1 s2 s2 s2 s2 s3 s3 s3 s3";    
+}
+
+.section1{
+    grid-area: s1; 
+    border-right: 3px solid #F4426E;
+}
+.section2{
+    grid-area: s2;
+    border-right: 3px solid #F4426E;
+}
+.section3{
+    grid-area: s3;
+}
+
+.section1, .section2, .section3{
+    padding:20px;
+}
+
+.headline{
+    font-family: 'Lato', sans-serif;
+    font-size:30px;
+}
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
